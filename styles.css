@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lavishly+Yours&display=swap");
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+/* *********************typography********************* */
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  font-family: Lato, sans-serif;
+  font-size: 1.6rem;
+  color: #dfdfe1;
+}
+
+h1 {
+  font-family: Lavishly Yours, serif;
+  font-size: 6.4rem;
+  line-height: 6.8rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+/* *********************layout********************* */
+
+body {
+  background-color: #040406;
+  background: url(images/main-background-1.jpg) no-repeat fixed top center;
+  background-size: cover;
+}
+
+.content {
+  width: 1000px;
+  margin: 0px auto;
+}
+
+.header {
+  margin-bottom: 96px;
+  text-align: center;
+}
+
+.sewing {
+  background-color: #040406b6;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.text {
+  margin-left: 10px;
+}
+
+.div1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: column wrap;
+  height: 575px;
+  margin: auto;
+}
+
+.div2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: column wrap;
+  align-content: center;
+  height: 632px;
+  margin: auto;
+}
+
+.perspective {
+  background-color: #040406b6;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.div3 {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  height: 1103px;
+  margin: auto;
+}
+
+/* *********************image sizes********************* */
+
+.panorama {
+  width: 700px;
+  height: 554px;
+  margin: 10px;
+}
+
+.closeup {
+  width: 210px;
+  height: 265px;
+  margin: 10px;
+}
+
+.enlarged {
+  width: 484px;
+  height: 611px;
+  margin: 10px;
+}
+
+.perspective-large {
+  width: 940px;
+  height: 705px;
+  margin: 10px;
+}
+
+.perspective-small {
+  width: 450px;
+  height: 338px;
+  margin: 10px;
+}
+
+/* *****************************This is for iPads***************************** */
+
+@media (min-width: 581px) and (max-width: 868px) {
+  /* *********************layout********************* */
+
+  body {
+    background-color: #040406;
+    background: url(images/main-background-2.jpg) no-repeat fixed top center;
+    background-size: cover;
+  }
+
+  .content {
+    width: 720px;
+  }
+
+  .header {
+    margin-bottom: 96px;
+  }
+
+  .sewing {
+    background-color: #040406b6;
+    padding: 20px;
+    margin-bottom: 80px;
+  }
+
+  .text {
+    margin-left: 20px;
+  }
+
+  .div1 {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    height: 981px;
+    margin: auto;
+  }
+
+  .div2 {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    height: 1712px;
+    margin: auto;
+  }
+
+  .perspective {
+    background-color: #040406b6;
+    padding: 20px;
+    margin-bottom: 80px;
+  }
+
+  .div3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-flow: column wrap;
+    height: 1605px;
+    margin: auto;
+  }
+
+  /* *********************image sizes********************* */
+
+  .panorama {
+    width: 660px;
+    height: 522px;
+    margin: 20px;
+  }
+
+  .closeup {
+    width: 300px;
+    height: 379px;
+    margin: 20px;
+  }
+
+  .enlarged {
+    width: 660px;
+    height: 834px;
+    margin: 20px;
+  }
+
+  .perspective-large {
+    width: 660px;
+    height: 495px;
+    margin: 20px;
+  }
+
+  .perspective-small {
+    width: 660px;
+    height: 495px;
+    margin: 20px;
+  }
+}
+
+/* *****************************This is for mobile***************************** */
+
+@media (max-width: 580px) {
+  /* *********************layout********************* */
+
+  body {
+    background-color: #040406;
+    background: url(images/main-background-3.jpg) no-repeat fixed top center;
+    background-size: cover;
+  }
+
+  .content {
+    width: 420px;
+  }
+
+  .header {
+    margin-bottom: 96px;
+  }
+
+  .sewing {
+    background-color: #040406b6;
+    padding: 20px;
+    margin-bottom: 80px;
+  }
+
+  .text {
+    margin-left: 20px;
+    width: 340px;
+  }
+
+  .div1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column wrap;
+    align-content: center;
+    height: 1341px;
+    margin: auto;
+  }
+
+  .div2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column wrap;
+    align-content: center;
+    height: 2510px;
+    margin: auto;
+  }
+
+  .perspective {
+    background-color: #040406b6;
+    padding: 20px;
+    margin-bottom: 80px;
+  }
+
+  .div3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column wrap;
+    align-content: center;
+    height: 966px;
+    margin: auto;
+  }
+
+  /* *********************image sizes********************* */
+
+  .panorama {
+    width: 350px;
+    height: 277px;
+    margin: 30px;
+  }
+
+  .closeup {
+    width: 350px;
+    height: 442px;
+    margin: 30px;
+  }
+
+  .enlarged {
+    width: 350px;
+    height: 442px;
+    margin: 30px;
+  }
+
+  .perspective-large {
+    width: 350px;
+    height: 262px;
+    margin: 30px;
+  }
+
+  .perspective-small {
+    width: 350px;
+    height: 262px;
+    margin: 30px;
+  }
+}
